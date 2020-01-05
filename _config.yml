@@ -1,7 +1,7 @@
 # Site settings
-title:       Pixyll
+title:       Minimal Pixyll
 email:       your_email@example.com
-author:      John Otander
+author:      John Otander / Fernanda Andrade
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
 url:         "http://pixyll.com"
@@ -35,16 +35,6 @@ post_preview_image: false
 # (for instant articles and other stuff)
 fb_page: false
 fb_page_id:
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
 
 # Social icons
 github_username:
@@ -115,7 +105,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     25
 sass:
   style: compressed
 plugins:
