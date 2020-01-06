@@ -6,9 +6,11 @@ description: "A simple, beautiful theme for Jekyll that emphasizes content rathe
 baseurl:     ""
 url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
+permalink:   /blog/:categories/:year/:month/:day/:title.html
+paginate_path: "/blog/page:num"
 header_pages:
+ - talks.md
  - about.md
- - contact.html
 
 # Google services
 google_verification:
@@ -23,7 +25,8 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_footer:          false
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -41,7 +44,7 @@ github_username:
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: feru
 skype_username:
 steam_nickname:
 google_plus_id:

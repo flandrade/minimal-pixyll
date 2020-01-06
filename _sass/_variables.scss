@@ -121,7 +121,7 @@ $header-font-weight: 300;
 // Nav
 $nav-color: $mid-gray;
 $nav-link-color: #444;
-$nav-padding: $space-2;
+$nav-padding: 0;
 $nav-link-padding-x: $space-2;
 $nav-link-border-bottom: 2px solid #444;
 $nav-active-border-bottom: 1px solid $light-gray;
@@ -133,3 +133,6 @@ $footer-color: #7a7a7a;
 $footer-bg-color: #fafafa;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
+
+// Custom
+$page-break: #3a5199
