@@ -4,7 +4,7 @@ email:       your_email@example.com
 author:      John Otander / Fernanda Andrade
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "ferandrade.com/minimal-pixyll"
 date_format: "%b %-d, %Y"
 permalink:   /blog/:categories/:year/:month/:day/:title.html
 paginate_path: "/blog/page:num"
@@ -33,11 +33,6 @@ extended_fonts: false
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: false
-
-# Facebook Page integration
-# (for instant articles and other stuff)
-fb_page: false
-fb_page_id:
 
 # Social icons
 github_username:
